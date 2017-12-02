@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <style>
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url("https://cdn.pixabay.com/photo/2017/09/24/15/22/person-2782140_1280.jpg");
+background-color:red;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+</style>
+    
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Log In</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Find a place to stay.</h1>
+        <p>Spend the night with Facebook friends near you.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div> 
+
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>Last-Minute</h3>
+			<p>Need a place to crash? Choose your price and find rooms in your area.</p>
+			<p><a href="file:///C:/Users/Ava/Downloads/Yhack/Request.html">Take advantage of your options on Sleepover.</a></p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Host</h3>
+			<p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+			<p><a href="#">Learn more about hosting.</a></p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Trust and Safety</h3>
+			<p>Sell and buy from people you know from Facebook.</p>
+			<p><a href="#">Learn about trust at Sleepover.</a></p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>
