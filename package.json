@@ -1,0 +1,23 @@
+{
+  "name": "y-hacks17",
+  "version": "1.0.0",
+  "description": "Yale hackathon project 2017",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davistardif/y-hacks17.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davistardif/y-hacks17/issues"
+  },
+  "homepage": "https://github.com/davistardif/y-hacks17#readme",
+  "devDependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
